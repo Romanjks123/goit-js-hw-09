@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page 3</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/task-2.css" />
+  </head>
+  <body>
+    <load
+      src="./partials/header.html"
+      icon-path="./img/sprite.svg#logo"
+      highlight-curr="active"
+    />
+
+    <main>
+      <div class="container">
+        <form class="contact-form">
+          <label class="contact-form__label" for="email">Email</label>
+          <input
+            class="contact-form__input"
+            type="email"
+            id="email"
+            name="email"
+          />
+
+          <label class="contact-form__label" for="message">Message</label>
+          <textarea
+            class="contact-form__textarea"
+            id="message"
+            name="message"
+          ></textarea>
+
+          <button class="contact-form__button" type="submit">Submit</button>
+        </form>
+        <load src="./partials/back-link.html" />
+      </div>
+    </main>
+
+    <script src="./js/2-form.js"></script>
+  </body>
+</html>
