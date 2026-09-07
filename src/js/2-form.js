@@ -3,7 +3,7 @@ const formData = {
   message: ""
 };
 
-const form = document.querySelector(".contact-form");
+const form = document.querySelector(".feedback-form");
 
 const savedData = JSON.parse(localStorage.getItem("feedback-form-state"));
 
